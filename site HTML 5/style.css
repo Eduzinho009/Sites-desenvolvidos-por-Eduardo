@@ -16,7 +16,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
     flex-wrap: wrap;
     gap: 7vw;
     
@@ -101,8 +101,8 @@ section{
         justify-content: center;
         gap: 100px;
         flex-wrap: wrap;
-    background: rgb(0,0,0);
-    background: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 36%, rgba(0,0,0,1) 92%);
+        background: rgb(0,0,0);
+        background: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 36%, rgba(0,0,0,1) 92%);
 
 }
 .cartao{
@@ -200,60 +200,60 @@ section{
 }
 
 .button1{
-    background-color: #00ce2d;
-    color: white;
-    padding: 10px 20px;
+    padding: 10px;
+    border-radius: 999px;
+    width: 80%;
     border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-size: 16px;
-    opacity: 0.7;
-    margin-left: 16%;
-    transition: all 150ms ease-in-out;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 200ms ease-in-out;
     font-family: "Nunito", serif;
+    margin-left: 9%;
 }
 
 .button1:hover{
-    opacity: 1;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid #00ce2d;
     transform: scale(1.1);
     
 }
 
 .button2{
-    background-color: #ff6a00;
-    color: white;
-    padding: 10px 20px;
+    padding: 10px;
+    border-radius: 999px;
+    width: 80%;
     border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-size: 16px;
-    opacity: 0.7;
-    margin-left: 16%;
-    transition: all 150ms ease-in-out;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 200ms ease-in-out;
     font-family: "Nunito", serif;
+    margin-left: 9%;
 }
 
 .button2:hover{
-    opacity: 1;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid #ff6a00;
     transform: scale(1.1);
 }
 
 .button3{
-    background-color: #A349A4;
-    color: white;
-    padding: 10px 20px;
+    padding: 10px;
+    border-radius: 999px;
+    width: 80%;
     border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-size: 16px;
-    opacity: 0.7;
-    margin-left: 16%;
-    transition: all 150ms ease-in-out;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 200ms ease-in-out;
     font-family: "Nunito", serif;
+    margin-left: 9%;
 }
 
 .button3:hover{
-    opacity: 1;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid #A349A4;
     transform: scale(1.1);
 }
 
@@ -263,7 +263,8 @@ section{
     align-items: center;
     justify-content: center;
     height: auto;
-    padding:2vh 0px;
+    padding:7vh 0px;
+    margin-top: 5%;
 }
 
 .formulario{
