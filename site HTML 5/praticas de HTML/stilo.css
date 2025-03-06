@@ -1,0 +1,23 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.cima-s1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+    cursor: pointer;
+}
+.cima-letra{
+    text-decoration: none;
+    color: black;
+
+}
+.cima-letra:hover{
+
+    text-decoration: underline;
+
+}
