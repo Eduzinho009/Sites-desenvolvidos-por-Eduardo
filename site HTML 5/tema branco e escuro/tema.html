@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar de Temas</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="tema.css">
+</head>
+<body>
+
+    <button class="botao" id="botao">Mudar o Tema</button>
+    
+</body>
+
+<script>
+document.body.classList.add('claro');
+
+var button = document.getElementById("botao");
+
+button.addEventListener('click', () => {
+    document.body.classList.toggle('escuro');
+    document.body.classList.toggle('claro');
+});
+
+
+</script>
+
+</html>
