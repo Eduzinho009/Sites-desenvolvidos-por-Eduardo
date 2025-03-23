@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Dominando a Respiração</title>
+   
+    <link rel="stylesheet" href="curso.css">
+   
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+        <section id="s1">
+            
+            <div class="s1-logo">
+                <img src="./imagens/logo.png">
+            </div>
+
+            <div class="s1-baixo">
+                <h1>Dominando a Respiração</h1>
+                <h3>Respire fundo, domine o ar e transforme sua vida</h3>
+                <button class="botao-s1" href="#s4">inscreva-se hoje</button>
+            </div>
+            <div class="redes-s1">
+                <a href="https://x.com/" class="twitter"><img src="./imagens/twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/" class="instagram"><img src="./imagens/instagram.png" alt="twitter"></a>
+                <a href="https://www.youtube.com/" class="youtube"><img src="./imagens/youtube.png" alt="twitter" ></a>
+            </div>
+        </section>
+
+    <section id="s2">
+       
+        <div class="titulo-s2">
+            <h1>O QUE NÓS OFERECEMOS</h1>
+            <h3>O que você encontrará neste curso?</h3>
+        </div>
+
+        <div class="cartao">
+            <div class="wrap-info-card-1">
+              <h1>Aulas 100% Online</h1>
+            </div>
+        </div>
+
+        <div class="cartao">
+            <div class="wrap-info-card-2">
+               <h1>Slides e Videos</h1>
+            </div>
+        </div>
+
+        <div class="cartao">
+            <div class="wrap-info-card-3">
+               <h1>Praticas em Casa</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="s3">
+        <div class="cartao-s3">
+            <div class="cartas-s3">
+              <h1>SOBRE A NOSSA EMPRESA</h1>
+              <h3>O curso doo'Know é uma jornada única projetada para aqueles que buscam dominar o poder da respiração e alcançar equilíbrio,
+                 foco e vitalidade.
+                 Mais do que apenas um curso,
+                 o doo'Know é um caminho para transformar a forma como você se conecta com seu corpo e mente.</h3><br><br><br>
+                 <a href="./Curso.html" class="link-s3">Saiba Mais</a>
+            </div>
+            <div class="s3-imagem">
+                <img src="./imagens/s3-imagem.png" alt="respirar">
+            </div>
+        </div>
+    </section>
+
+    <section id="s4">
+       
+        <div class="titulo-s4">
+            <h1>NOSSOS SERVIÇOS</h1>
+            <h3>Estamos empenhados em trazer a melhor experiência e estudos.</h3>
+        </div>
+
+        <div class="cartao-s4">
+            <div class="wrap-image-s4-1">
+                <img src="./imagens/basico.png" alt="nivel-1" width="105px" height="auto">
+                <h1>Curso Basico</h1>
+            </div>
+            <div class="wrap-info-card-s4-1">
+               <ul>
+               <li>Conceitos basicos da respiração</li>
+               <li>exercicios praticos de respiração</li>
+               <li style="color: #004643;"></li>
+               </ul>
+
+               <button>inscreva-se</button>
+            </div>
+        </div>
+
+        <div class="cartao-s4">
+            <div class="wrap-image-s4-2">
+                <img src="./imagens/medio.png" alt="nivel-2" width="135px" height="auto">
+                <h1>Curso Medio</h1>
+            </div>
+            <div class="wrap-info-card-s4-2">
+               <ul>
+                <li>Conceitos basicos da respiração</li>
+               <li>exercicios praticos de respiração</li>
+                <li>mecanicas do sistema respiratorio</li>
+               </ul>
+
+               <button>inscreva-se</button>
+            </div>
+        </div>
+
+        <div class="cartao-s4">
+            <div class="wrap-image-s4-3">
+                <img src="./imagens/pro.png" alt="nivel-3" width="135px" height="auto">
+                <h1>Curso Plus+</h1>
+            </div>
+            <div class="wrap-info-card-s4-3">
+               <ul>
+                <li>Conceitos basicos da respiração</li>
+                <li>exercicios praticos de respiração</li>
+                <li>utilização de tecnicas respiratorias em esportes</li>
+               </ul>
+
+               <button>inscreva-se</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+
+        document.querySelector('.botao-s1').addEventListener('click', function(event){
+            event.preventDefault();
+            document.querySelector('#s4').scrollIntoView({
+                behavior: 'smooth'
+            })
+        })
+    </script>
+
+
+
+</body>
+</html>

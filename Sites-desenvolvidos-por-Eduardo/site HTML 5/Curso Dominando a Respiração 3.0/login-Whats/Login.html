@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Questrial&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section id="s1">
+        <div class="s1-logo">
+            <img src="./imagens/logo-2.png" alt="logo">
+        </div>
+        <div>
+            <div class="formulario">
+                <h1>Login</h1><br><br><br><br>
+                <input type="text" placeholder="NOME" id="nome">
+                <input type="text" placeholder="CPF" id="CPF">
+                <br>
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+       function enviar() {
+   
+    document.getElementById("nome").style.border = "1px solid black";
+    document.getElementById("CPF").style.border = "1px solid black";
+
+    
+    const nome = document.getElementById("nome").value;
+    const CPF = document.getElementById("CPF").value;
+
+    
+    if (!nome || !CPF) {
+      
+        document.getElementById("nome").style.border = nome ? "1px solid black" : "2px solid red";
+        document.getElementById("CPF").style.border = CPF ? "1px solid black" : "2px solid red";
+        return; 
+    }
+
+   
+    const mensagem = `Ola Eu Gostaria de Entrar No Curso de Como Respirar!!!\n\nNome: ${nome}\nCPF: ${CPF}`;
+    const msg = encodeURIComponent(mensagem);
+
+    
+    window.location.href = `https://wa.me/5541997545587?text=${msg}`;
+}
+
+    </script>
+</body>
+</html>
