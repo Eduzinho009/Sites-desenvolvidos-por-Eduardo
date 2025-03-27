@@ -103,7 +103,7 @@
                <li style="color: #004643;"></li>
                </ul>
 
-               <button>inscreva-se</button>
+               <button onclick="redirecionarLogin()">inscreva-se</button>
             </div>
         </div>
 
@@ -119,7 +119,7 @@
                 <li>mecanicas do sistema respiratorio</li>
                </ul>
 
-               <button>inscreva-se</button>
+               <button onclick="redirecionarLogin()">inscreva-se</button>
             </div>
         </div>
 
@@ -135,7 +135,7 @@
                 <li>utilização de tecnicas respiratorias em esportes</li>
                </ul>
 
-               <button>inscreva-se</button>
+               <button onclick="redirecionarLogin()">inscreva-se</button>
             </div>
         </div>
     </section>
@@ -149,6 +149,10 @@
                 behavior: 'smooth'
             })
         })
+
+        function redirecionarLogin(){
+            window.location.href = "./login-whats/Login.html"
+        }
     </script>
 
 

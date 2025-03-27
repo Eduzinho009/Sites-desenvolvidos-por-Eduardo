@@ -84,3 +84,50 @@ section{
     font-style: normal;
     font-weight: bold;
 }
+
+.site-s1{
+    width: 300px;
+    height: auto; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px; 
+    position: absolute;
+    bottom: 190px;
+    right: 414px;
+    padding-right: 18px;
+}
+
+.site-s1 img {
+    width: 45px; 
+    height: 45px; 
+  }
+
+  .twitter{
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+  }
+  .twitter:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+  }
+
+  .instagram{
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+  }
+  .instagram:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+  }
+  .youtube{
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+  }
+  .youtube:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+  }

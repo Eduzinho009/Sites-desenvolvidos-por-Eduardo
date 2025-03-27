@@ -474,12 +474,12 @@ section{
 }
 
 @media (max-width: 768px) {
-    /* Ajuste a altura das seções */
+    /* Ajuste geral da altura das seções */
     section {
-        height: auto;
+        height: 100vh; /* Utiliza 100% da altura da tela */
     }
 
-    /* Centralizar o logotipo no topo */
+    /* Ajustes específicos para S1 */
     .s1-logo {
         position: static;
         margin: 0 auto;
@@ -489,75 +489,28 @@ section{
     }
 
     .s1-logo img {
-        width: 150px; /* Reduz o tamanho do logo */
+        width: 120px; /* Logo menor */
     }
 
-    /* Ajustar o texto do cabeçalho */
     .s1-baixo h1 {
-        font-size: 36px; /* Reduz o tamanho do título */
-        margin-right: 15px;
+        font-size: 28px; /* Título reduzido */
+        text-align: center; /* Centralizado */
     }
 
     .s1-baixo h3 {
-        font-size: 15px; /* Reduz o subtítulo */
-        display: flex;
-        justify-content: center;
+        font-size: 14px; /* Subtítulo ajustado */
     }
 
-    /* Botão centralizado */
     .s1-baixo button {
-        margin: 20px auto; /* Centralizar botão */
-        display: flex;
-        justify-content: center;
+        margin: 15px auto;
+        display: block;
     }
 
-    /* Ícones das redes sociais ajustados */
-    .redes-s1 {
-        width: 100%;
-        padding: 10px;
-        flex-direction: row; /* Empilhar ícones verticalmente */
-        gap: 10px; /* Espaçamento entre ícones */
-        position: static;
-        bottom: auto;
+    .titulo-s2 h1,
+    .titulo-s2 h3{
+        font-size: 28px; /* Título reduzido */
+        text-align: center; /* Centralizado */
     }
+    
 
-    .redes-s1 img {
-        width: 40px; /* Reduzir tamanho dos ícones */
-        height: 40px;
-    }
-
-    /* Cartões de informações redimensionados */
-    .cartao,
-    .wrap-info-card-1,
-    .wrap-info-card-2,
-    .wrap-info-card-3 {
-        width: 100%; /* Fazer os cartões ocuparem a largura total */
-        height: auto; /* Ajustar altura automaticamente */
-    }
-
-    /* Títulos e textos redimensionados */
-    .titulo-s2 h1, .titulo-s2 h3 {
-        font-size: 20px;
-    }
-
-    .cartas-s3 {
-        width: 100%; /* Ajustar a largura para dispositivos móveis */
-        margin: 20px 0; /* Adicionar margem para espaçamento */
-    }
-
-    .link-s3 {
-        font-size: 18px; /* Ajustar tamanho do link */
-    }
-
-    /* Ajustes para a seção 4 */
-    .cartao-s4 {
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .wrap-info-card-s4-1 ul,
-    .wrap-info-card-s4-2 ul,
-    .wrap-info-card-s4-3 ul {
-        font-size: 16px; /* Reduzir tamanho da fonte */
-    }
 }
